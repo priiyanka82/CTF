@@ -1,5 +1,4 @@
-/*99d98c*/
-html, body {
+body {
     height:100%;
     width:100%;
     margin:0;
@@ -17,16 +16,27 @@ label {
     table-layout:fixed;
 }
 .cell {
-    display:table-cell;
-    vertical-align:middle;
+	position: fixed; 
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
 }
 form {
     display:inline-block;
-    border:8px solid black;
-    width: 450px;
-    padding:50px 0;
-    background: blue;
+    border:10px ;
+    border-style: double;
+    border-color: #A26769;
+    width: 400px;
+    padding:50px;
+    background: #F8E9E9;
 }
+p.a {
+  font-family: 'Times New Roman', serif;
+  font-style: oblique;
+  font-size: 30px;
+}
+
 input {
     margin-bottom:15px;
 }
